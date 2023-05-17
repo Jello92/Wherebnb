@@ -31,6 +31,9 @@
 ---------------------------------------
 [웨어비앤비 Use Case]
 
+![image (1)](https://github.com/Jello92/Wherebnb/assets/128972031/f46bfbc7-6801-49b7-8013-3e1a9d7120f3)
+
+
 🗝 ERD 
 ---------------------------------------
 ![image](https://github.com/Jello92/Wherebnb/assets/128972031/dd6a389f-dbc8-4812-b555-02ff037d2415)
