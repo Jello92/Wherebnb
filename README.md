@@ -21,6 +21,7 @@
 
 🛠 Project Architecture
 ---------------------------------------
+![wherebnb](https://github.com/Jello92/Wherebnb/assets/128972031/be2fc5ca-ba90-41d4-8c7f-da8c527894a0)
 
 
 📅 API 명세서
@@ -40,3 +41,14 @@
 
 🛠 트러블 슈팅
 ---------------------------------------
+![문제](https://github.com/Jello92/Wherebnb/assets/128972031/a7d7e80e-8afa-4faa-b409-b3665eeb3945)
+![문제1](https://github.com/Jello92/Wherebnb/assets/128972031/ffbc191c-bb73-4d83-ba47-dfd20809edb6)
+![문제2](https://github.com/Jello92/Wherebnb/assets/128972031/11557848-8214-485d-90c0-061f96adc4c7)
+19029223)
+![문제3](https://github.com/Jello92/Wherebnb/assets/128972031/10371b82-7038-4d7a-9c95-71eed21b193f)
+![문제4](https://github.com/Jello92/Wherebnb/assets/128972031/dba44644-f647-40d9-9047-313d37a05e76)
+
+![문제5](https://github.com/Jello92/Wherebnb/assets/128972031/a13e4016-a0ce-4069-90da-ab574b3af98d)
+![문제6](https://github.com/Jello92/Wherebnb/assets/128972031/651340fa-494b-4603-bf74-b021818bff75)
+![문제7](https://github.com/Jello92/Wherebnb/assets/128972031/e5febe36-48f3-4d9f-82e7-55327885fd60)
+
