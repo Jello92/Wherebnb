@@ -170,10 +170,4 @@ public class RoomsService {
         }
         return imageFileList;
     }
-
-    public ResponseDto<?> forTest(Users from) {
-        Users to = userRepository.findByUsername(from.getUsername()).orElseThrow(()->new ErrorException(ExceptionEnum.ROOM_NOT_FOUND));
-        notificationService.notifyMe(from, to);
-        return ResponseDto.setSuccess("SSE 테스트용 코드!", null);
-    }
 }

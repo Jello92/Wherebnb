@@ -5,10 +5,7 @@ import com.example.wherebnb.dto.ResponseDto;
 import com.example.wherebnb.service.HostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Pageable;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RequestMapping("main")
 @RestController
@@ -28,8 +25,8 @@ public class HostController {
     }
 
     @GetMapping("/keyword")
-    public ResponseDto chooseSearch(String keyword1, String keyword2, Pageable pageable){
-        return hostService.chooseSearch(keyword1, keyword2, pageable);
+    public ResponseDto chooseSearch(@RequestParam("keyword") String keyword, Pageable pageable){
+        return hostService.chooseSearch(keyword, pageable);
     }
 
     @GetMapping("/condition")
