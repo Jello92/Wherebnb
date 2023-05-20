@@ -59,7 +59,7 @@ public class UserService {
         MultiValueMap<String, String> body = new LinkedMultiValueMap<>();
         body.add("grant_type", "authorization_code");
         body.add("client_id", kakaoApiKey);
-        body.add("redirect_uri", "http://localhost:3000/login");
+        body.add("redirect_uri", "http://wherebnbclone.s3-website.ap-northeast-2.amazonaws.com/login");
         body.add("code", code);
 
         // HTTP 요청 보내기

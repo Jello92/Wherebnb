@@ -5,6 +5,7 @@ import com.example.wherebnb.entity.Users;
 import com.example.wherebnb.repository.LikesRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import org.springframework.web.servlet.mvc.method.annotation.SseEmitter;
 
@@ -18,6 +19,8 @@ import static com.example.wherebnb.controller.SseController.sseEmitters;
 @Slf4j
 @RequiredArgsConstructor
 public class NotificationService {
+
+    @Scheduled(fixedRate = 60000)
     public void notifyLikeEvent(Likes likes, Users to) {
         Long kakaoId = Long.valueOf(to.getKakaoId());
 

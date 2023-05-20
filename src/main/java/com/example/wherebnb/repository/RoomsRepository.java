@@ -19,11 +19,14 @@ public interface RoomsRepository extends JpaRepository<Rooms, Long> {
            LocalDate checkOutDate,
            Pageable pageable);
 
-   List<Rooms> findByGuestNumLessThanEqualAndInfantExistAndPetExist(
+
+   List<Rooms> findByGuestNumGreaterThanEqualAndInfantExistAndPetExist(
            int guestNum,
            boolean infantExist,
            boolean petExist,
            Pageable pageable);
+
+
 
    List<Rooms>findAllByPeriodGreaterThanEqual(
            int period,
